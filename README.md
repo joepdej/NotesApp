@@ -1,4 +1,4 @@
-# JavaScript Notitie App
+# JavaScript Note App
 
 A simple note-taking app built with HTML, CSS and JavaScript.
 
