@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Notes</title>
+  </head>
+
+  <body>
+    <div class="form" id="form">
+      <h1>JavaScript Notitie App</h1>
+      <form>
+        <input
+          class="input"
+          type="text"
+          id="note-title"
+          placeholder="Titel"
+        /><br />
+        <textarea
+          class="input"
+          id="note-input"
+          placeholder="Plaats notitie hier"
+          cols="30"
+          rows="10"
+        ></textarea
+        ><br />
+        <button class="button-add" id="add-button">Add</button>
+      </form>
+    </div>
+    <h2>Notities</h2>
+    <div class="notes" id="notesCon">
+      <div class="note-grid" id="notes-list"></div>
+      <ul id="note-ul">
+
+      </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
